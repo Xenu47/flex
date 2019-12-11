@@ -1,0 +1,119 @@
+#body{
+width:1000px;
+margin:auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#slider{
+  width: 650px;
+  height: 341px;
+  background-size: cover;
+  margin-top: 65px;
+  overflow: hidden;
+}
+#slide1{
+background-image: url(../img/share.png);
+}
+#slide2{
+background-image: url(../img/sekiro.jpg);
+left: 650px;
+
+}
+#slide3{
+background-image: url(../img/dragonagei.jpg);
+left: 1300px;
+}
+.slider_items{
+  position: absolute;
+  width: 650px;
+  height: 341px;
+  background-size: cover;
+}
+#circles{
+
+}
+.circle{
+  height: 15px;
+  width: 15px;
+  border: 1.5px solid grey;
+  background-color: white;
+  float: left;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-top: 10px;
+  transition: 0.5s;
+}
+.article{
+  background-color: rgb(51, 51, 51);
+  width: 638px;
+  height: 40px;
+  padding-left: 12px;
+  margin-top: 58px;
+  line-height: 40px;
+  font-family: Fontrus;
+  color: white;
+}
+#newgames{
+  width: 650px;
+}
+#oldbutgoldgames{
+  width: 650px;
+}
+.games{
+  width: 325px;
+  height: 183px;
+  background-size: cover;
+  float: left;
+  cursor: pointer;
+}
+.hover_games{
+  background-color: rgb(66,66,66,0);
+  color: white;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  transition: 0.3s;
+  opacity: 0;
+  font-family: Fontrus;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hover_games:hover{
+  opacity: 1;
+  background-color: rgb(66,66,66,0.85);
+}
+#last_news{
+  width: 650px;
+  height: 350px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #424242;
+}
+.news{
+  height: 70px;
+  width: 100%;
+  border-bottom: 1px solid #545252;
+  padding-left: 15px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.news:hover{
+  background-color: #545252;
+}
+.text_up{
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  color: white;
+  font-size: 17px;
+  font-family: Fontrus;
+}
+.text_down{
+  width: 100%;
+  height: 40px;
+  color: white;
+  font-size: 13px;
+  font-family: Fontrus;
+}
