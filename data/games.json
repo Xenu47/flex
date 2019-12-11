@@ -1,0 +1,14 @@
+{
+  "1":{
+    "title": "Red Dead Redemption 2",
+    "logo": "./img/rdr2.jpg"
+  },
+  "2":{
+    "title": "Control",
+    "logo": "./img/control.jpg"
+  },
+  "3":{
+    "title": "STAR WARS Jedi Fallen Order",
+    "logo": "./img/starwarsjfo.jpg"
+  }
+}
